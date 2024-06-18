@@ -1,0 +1,81 @@
+.border{
+    border: 2px solid black;
+    margin: 3px;
+    border-radius: 7px;
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #121212;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.p1{
+    padding: 10px;
+}
+
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark color for the thumb */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Dark color for the track */
+  }
+  
+  /* For Firefox */
+  scrollbar-color: #333 #222; /* Dark color for the thumb and track in Firefox */
+  
+
+  
+
+  .keep-scrolling {
+    background-color: #EEE;
+    width: 200px;
+    height: 100px;
+    border: 1px dotted black;
+    overflow-x: scroll; 
+    
+  }
+  .keep-scrolling::-webkit-scrollbar{
+    display: none;
+  }
+
+  .keep-scrolling1{
+    background-color: #000000;
+    width: 200px;
+    height: 100px;
+    border: 1px dotted black;
+    overflow-y: scroll; 
+    
+  }
+  .keep-scrolling1::-webkit-scrollbar{
+    display: none;
+  }
